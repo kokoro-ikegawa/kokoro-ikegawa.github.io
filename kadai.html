@@ -4,6 +4,10 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta http-equiv="Content-Style-Type" content="text/css">
 <meta http-equiv="Content-Script-Type" content="text/javascript">
+<link rel="stylesheet"
+href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/boots
+trap.min.css"/>
+<link rel="stylesheet" type="text/css" href="design.css" />
 <title>Spoken Dialog by Javascript</title>
 </head>
 <body>
@@ -22,7 +26,10 @@
 <script>
 // 応答の定義（ハッシュ）    
 var response = {
-    "山梨,観光": ["山梨県の観光スポットを表示します", "https://travel.rakuten.co.jp/mytrip/ranking/spot-yamanashi/"]
+    "山梨,観光": ["山梨県の観光スポットを表示します", "https://travel.rakuten.co.jp/mytrip/ranking/spot-yamanashi/"],
+	"山梨,旅行": ["山梨県の観光スポットを表示します", "https://travel.rakuten.co.jp/mytrip/ranking/spot-yamanashi/"],
+	"山梨,遊び": ["山梨県の遊び場を表示します", "https://travel.rakuten.co.jp/mytrip/ranking/spot-yamanashi/"],
+	"山梨,遊ぶ": ["山梨県の遊び場を表示します", "https://travel.rakuten.co.jp/mytrip/ranking/spot-yamanashi/"]
 };
 
 // ウエイクワードの定義
